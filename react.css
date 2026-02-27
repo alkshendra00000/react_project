@@ -1,0 +1,103 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Main Container */
+.container {
+  background: #ffffff;
+  padding: 30px;
+  width: 380px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Password Input */
+#passbox {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+/* Slider Section */
+.slider-box {
+  margin-bottom: 15px;
+}
+
+.slider-box label {
+  font-size: 14px;
+  color: #444;
+}
+
+#lengthSlider {
+  width: 100%;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+/* Checkbox Section */
+.options {
+  margin: 15px 0;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #333;
+}
+
+.options input {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+/* Generate Button */
+#genbtn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #6c5ce7;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#genbtn:hover {
+  background: #4834d4;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
